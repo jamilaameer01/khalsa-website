@@ -1,0 +1,453 @@
+/**
+Theme Name: khalsa
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: khalsa
+Template: astra
+*/
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+body .ast-builder-menu-1 .menu-item > .menu-link {
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+    font-weight: 600;
+    outline-offset: -1px;
+    text-decoration: none;
+    line-height: 1;
+}
+body .wp-block-button.has-custom-width.wp-block-button__width-75.has-custom-font-size.bannerbtn a{
+    background-color: #0a224e;
+    color: #fff;
+    padding: 20px 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+body .bannerpara{
+    padding-top: 127px;
+    font-weight: 700;
+    line-height: 50px;
+    font-weight: 700;
+    text-shadow: 0 8px 8.73px rgba(47, 47, 47, .69);
+}
+body .banrightpara1{
+    font-weight: 600;
+    margin: 0;
+}
+body .banrightpara2 strong {
+    font-size: 90px;
+}
+body .banrightpara2{
+    margin: 0;
+    background-color: #598527;
+    width: 100%;
+    max-width: 318px;
+    border-radius: 20px;
+    padding: 10px 26px 15px;
+    display: flex;
+    gap: 10px;
+    margin-left: 64px;
+    font-weight: 700;
+    line-height: 68px;
+    align-items: center;
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, .2);
+    margin-top: 10px;
+    text-shadow: 0 6px 14px rgba(0, 0, 0, .2);
+}
+body .companyinner{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+}
+body .section3{
+    background-color: #598527;  
+}
+body .section3h2{
+    color: #fff;
+    font-weight: 700;
+    padding-top: 4px;
+    letter-spacing: 1px;
+}
+body .section3para1{
+    color: #fff;
+    word-spacing: 3px;
+    width: 78%;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+body .flex{
+    display: flex;
+    max-width: 1240px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap:20px 0;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+body .flex input:focus{
+    border: 2px solid #000;
+}
+body .flex input::placeholder{
+    color: #000;
+}
+body .flex input{
+    width: 286px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 0;
+}
+body .section3inner{
+    margin: 0 auto;
+    padding: 60px 0;
+}
+body .wp-block-button.bannerbtn a {
+    background-color: #0a224e;
+}
+body .section4h2{
+    color: #333333;
+    line-height: 1.2;
+}
+body .section4coverpara{
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        line-height: 1.5;
+        text-shadow: 0 3px 5px rgb(43 43 43);
+}
+body .section5inner{
+    padding: 76px 77px;
+    background-color: #598527;  
+}
+body .wp-block-cover.alignfull.section5cover{
+    padding: 100px 0;
+}
+body .section5img img{
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+body .rating{
+    padding-bottom: 58px;
+}
+body .wp-block-column.ratingquotes.is-layout-flow.wp-block-column-is-layout-flow {
+    position: relative;
+}
+body .ratingstrong strong{
+    font-size: 70px;
+    line-height: 10px;
+    position: absolute;
+    left: -39px;
+    top: 232px;
+}
+body .wp-block-cover.alignfull.is-light.thirddcolor {
+    padding-top: 123px;
+    padding-bottom: 116px;
+}
+body .profilepara{
+    min-height: 55px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #598527;
+}
+body .profilemargin{
+    margin-bottom: 90px;
+}
+body .sliderflex{
+ display: flex;
+ justify-content: space-between;
+ gap: 12px;
+}
+body .innerdiv{
+    background-color: #fff;
+    padding: 30px 30px;
+    text-align: center;
+}
+body .innerdiv img{
+    padding-bottom: 20px;
+}
+body .headstyle a{
+        color: #598527;
+        font-weight: 700;
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out; 
+        font-size: 20px;
+        text-align: center;  
+        padding-top: 20px;
+}
+body .pstyle p{
+        font-size: 16px;
+        color: rgb(50, 50, 50);
+        line-height: 1.375;
+        text-align: left;
+        padding-top: 20px;
+        padding-bottom: 9px;
+}
+body .btn a{
+        background-color: #0a224e;
+        font-size: 14px;
+        color: #fff;
+        padding: 8px 13px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+        width: 134px;
+}
+body a{
+    text-decoration: none !important;
+}
+body .owl-carousel .owl-nav button.owl-prev{
+        background: #d6d4d2;
+        color: #000;
+        padding: 0 20px !important;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        left: -94px;
+        border-radius: 50%;
+}
+body .owl-carousel .owl-nav button.owl-next{
+        background: #d6d4d2;
+        color: #000;
+        padding: 0 20px !important;
+        font-size: 30px;
+        position: absolute;
+        top: 50%;
+        right: -94px;
+        border-radius: 50%;
+}
+body .wp-block-cover.alignfull.coverfour {
+    padding: 101px 0 119px 0;
+}
+body .flex2{
+    display: flex; 
+    gap: 22px; 
+}
+body .flexcol{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+body .secondformdiv{
+    margin: 0 auto;
+    padding: 55px 0;
+}
+body .flex2 input{
+    max-width: 612px;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 0;
+}
+body .flexcol input:focus{
+    border: 2px solid #000;
+}
+body .flexcol input::placeholder{
+    color: #000;
+}
+body .form2{
+    background-color: #598527;
+}
+body .wp-block-button.has-custom-font-size.footerbtn a{
+    background-color: #598527; 
+}
+body .ast-nav-menu.ast-flex.astra-footer-horizontal-menu.astra-footer-tablet-vertical-menu.astra-footer-mobile-vertical-menu a{
+ color: #fff;
+ font-size: 16px;
+ padding: 0 10px;
+}
+body .site-primary-footer-wrap.ast-builder-grid-row-container.site-footer-focus-item.ast-builder-grid-row-full.ast-builder-grid-row-tablet-full.ast-builder-grid-row-mobile-full.ast-footer-row-inline.ast-footer-row-tablet-stack.ast-footer-row-mobile-stack {
+    margin: 0;
+    padding: 17px;
+}
+body .ast-nav-menu.ast-flex.astra-footer-horizontal-menu.astra-footer-tablet-vertical-menu.astra-footer-mobile-vertical-menu a::after{
+    border-right: 1px solid #fff;
+    height: 15px;
+    content: '';
+  padding-left: 20px;
+}
+body .ast-primary-header-bar.ast-primary-header.main-header-bar.site-header-focus-item {
+    max-width: 1339px;
+    width: 100%;
+    margin: 0 auto;
+} 
+body .bannerbtn:hover {
+opacity: 0.8;
+}
+body .zoomin:hover {
+  transform: scale(1.1); 
+}
+body .btn:hover {
+opacity: 0.8;
+}
+body .footerbtn:hover {
+opacity: 0.8;
+}
+body .card:hover {
+opacity: .9;
+filter: brightness(70%);
+cursor: pointer;
+}
+body .btnouterdiv{
+    max-width:469px;
+    width:100%
+}
+
+
+
+/* Media Query */
+@media only screen and (max-width: 1300px) {
+ body p.banrightpara3.banrightpara1{
+    padding-left: 0 !important;
+    font-size: 40px !important;
+}
+ body .banrightpara2 {
+  margin-left: 0;
+}
+body .ast-builder-menu-1 .menu-item > .menu-link {
+    font-size: 15px;
+    outline-offset: -1px;
+}
+body .banrightpara2 strong {
+    font-size: 50px;
+}
+}
+@media only screen and (max-width: 1130px) {
+    body .bannercontent{
+        flex-direction: column;
+    }
+  body .wp-block-column.is-layout-flow.wp-block-column-is-layout-flow {
+        padding: 0 !important;
+    } 
+    body .bannercolone{
+        max-width: 479px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    body .bannercoltwo{
+        max-width: 479px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    body .bannerpara{
+        text-align: center;
+    }
+    body .bannerpara{
+        padding-top:0;
+    }
+    body .bannerbtn{
+        width: 100% !important;
+    }
+    body .wp-block-columns.bannercontent.is-layout-flex.wp-container-core-columns-is-layout-1.wp-block-columns-is-layout-flex {
+        max-height: 695px;
+
+    }
+    body .zoomin{
+        max-width: 150px;
+        width: 100%;
+    }
+    body .flex {
+        justify-content: space-evenly;
+    }
+    body .wp-block-button.bannerbtn {
+        text-align: center;
+    }
+    body .innerdiv {
+        max-width: 317px;
+        width: 100%;
+        margin: 0 auto;
+    } 
+}
+@media only screen and (max-width: 1050px) {
+    body .sliderflex{
+        flex-direction: column;
+       }
+    body .innerdiv {
+        margin: 0 auto;
+    }
+    body .colwhitepic{
+        display: flex;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 1080px) {
+    body .ast-builder-menu-1 .menu-item > .menu-link {
+        font-size: 13px;
+        outline-offset: -1px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    body .section5para.section5para2{
+        padding-top: 22px;
+        width: 210%; 
+    } 
+}
+@media only screen and (max-width: 990px) {
+    body .ast-builder-menu-1 .menu-item > .menu-link {
+        font-size: 12px;
+        outline-offset: -1px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    body .companyinner{
+        margin: 0 auto;
+      flex-wrap: wrap;
+        justify-content: space-around;
+         align-items: center;
+    }
+    
+}
+@media only screen and (max-width: 730px) {
+    body .section5para.section5para2{
+        padding-top: 22px;
+        width: 113%; 
+    } 
+    body .ast-nav-menu.ast-flex.astra-footer-horizontal-menu.astra-footer-tablet-vertical-menu.astra-footer-mobile-vertical-menu a::after {
+       display: none;
+    }
+    body .site-above-footer-wrap[data-section="section-above-footer-builder"] .ast-builder-grid-row {
+       display: flex;
+       flex-direction: column;
+    }
+    body img.wp-image-279 {
+        width: 100% !important;
+    }
+    body .footerflexlength{
+     width: 340px ;
+    }
+    body .wp-block-columns {
+        flex-wrap: nowrap !important;
+    }
+    body .colwhitepic{
+        flex-direction: column-reverse;
+    }
+    body .cardcolum{
+        flex-wrap: wrap;
+    }
+    body .wp-block-columns.cardcolum.is-layout-flex.wp-container-core-columns-is-layout-5.wp-block-columns-is-layout-flex {
+        flex-direction: column;
+    }
+    body .wp-block-columns.is-layout-flex.wp-container-core-columns-is-layout-6.wp-block-columns-is-layout-flex {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 380px) {
+    body .site-above-footer-wrap[data-section="section-above-footer-builder"] {
+    padding-top: 70px;
+    padding-left: 26px;
+    padding-right: 26px;
+}
+ body p.has-text-align-left {
+    padding: 0 29px !important;
+    text-align: center;
+}
+body .wp-block-columns.bannercontent.is-layout-flex.wp-container-core-columns-is-layout-1.wp-block-columns-is-layout-flex {
+    max-height: 995px;
+
+}
+}
